@@ -23,24 +23,14 @@
                         <color key="backgroundColor" red="0.46594340454499727" green="0.92905818342823399" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="3Zf-4X-e0C">
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="mcG-tV-pt9">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="EKD-Fa-8rV">
-                                <rect key="frame" x="16" y="7" width="83" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Yellow"/>
-                            </button>
+                        <barButtonItem key="leftBarButtonItem" title="Yellow" id="blM-Te-xmg">
                             <connections>
-                                <segue destination="vHV-5R-yI6" kind="push" id="N1Z-3C-Qsv"/>
+                                <segue destination="vHV-5R-yI6" kind="push" id="nlc-J2-w5G"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="9Jh-Q5-jR5">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Bah-2m-VYG">
-                                <rect key="frame" x="276" y="7" width="83" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Pink"/>
-                            </button>
+                        <barButtonItem key="rightBarButtonItem" title="Pink" id="Oin-DH-Yhw">
                             <connections>
-                                <segue destination="rLE-CS-7gB" kind="push" identifier="PinkButton" id="wqS-05-x39"/>
+                                <segue destination="rLE-CS-7gB" kind="push" id="j7F-5K-kNX"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

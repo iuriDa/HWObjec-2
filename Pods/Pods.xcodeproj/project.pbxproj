@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		417FCC44AD0FD03A166F89B09BBDD6A3 /* BOZPongRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 237EFE4243D41A91E7838B0D19EFC08A /* BOZPongRefreshControl.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7127E2F6F3986413C8FCA47D2A00AE81 /* BOZPongRefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = ACDD36498142EBF8E17F096D63607974 /* BOZPongRefreshControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		836FC3C8D33702DB90C5DCB97DE622E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		9D2053C697EEDBD16FE1D7F6C4E223A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		CDB6E907E6A3DF6103F9E66170B4272A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		ECD572595223C63673622DB96E38D030 /* Pods-HWObject-2.1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6576DE0B5B4495E0C8806FECBD2CB9 /* Pods-HWObject-2.1-dummy.m */; };
+		F7D4A80045CE6E3CE8BA8958D68024AE /* BOZPongRefreshControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE20C2550E58F1B8FAD1D5F2D5C3AA5 /* BOZPongRefreshControl-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D83FE43B2398DB7E9F85CFC0AE3CEB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CC78F926053F65C10B7183938C0CAC;
+			remoteInfo = BOZPongRefreshControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		148F20548B597A0E407C92E2BE62E615 /* BOZPongRefreshControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BOZPongRefreshControl-prefix.pch"; sourceTree = "<group>"; };
+		237EFE4243D41A91E7838B0D19EFC08A /* BOZPongRefreshControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BOZPongRefreshControl.m; path = BOZPongRefreshControl/BOZPongRefreshControl.m; sourceTree = "<group>"; };
+		2B111140447593ECFFF31896BC114308 /* Pods-HWObject-2.1-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HWObject-2.1-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2CE731F0914CF2D1465E3313269B8BF1 /* Pods-HWObject-2.1-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HWObject-2.1-acknowledgements.plist"; sourceTree = "<group>"; };
+		40DE75E31E44A2073E28AF2F9EE1008B /* Pods-HWObject-2.1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HWObject-2.1.release.xcconfig"; sourceTree = "<group>"; };
+		5EE20C2550E58F1B8FAD1D5F2D5C3AA5 /* BOZPongRefreshControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BOZPongRefreshControl-dummy.m"; sourceTree = "<group>"; };
+		601AA7A25A8B5885C168EEFD3E7A7554 /* libBOZPongRefreshControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBOZPongRefreshControl.a; path = libBOZPongRefreshControl.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77342D7C399EE2E98F444562C9D6358D /* Pods-HWObject-2.1-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HWObject-2.1-frameworks.sh"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8A6576DE0B5B4495E0C8806FECBD2CB9 /* Pods-HWObject-2.1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HWObject-2.1-dummy.m"; sourceTree = "<group>"; };
+		9142DCAAEAE9AB46558D3CB8E4404F2E /* BOZPongRefreshControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BOZPongRefreshControl.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F95F6D0B148AAEDE1D18BF5E52D41AA /* Pods-HWObject-2.1-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HWObject-2.1-resources.sh"; sourceTree = "<group>"; };
+		ACDD36498142EBF8E17F096D63607974 /* BOZPongRefreshControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BOZPongRefreshControl.h; path = BOZPongRefreshControl/BOZPongRefreshControl.h; sourceTree = "<group>"; };
+		EF81CF1185E0DD1C58354742ABFE80DE /* Pods-HWObject-2.1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HWObject-2.1.debug.xcconfig"; sourceTree = "<group>"; };
+		FF92543EE2B626BC5287C53B81AC8760 /* libPods-HWObject-2.1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HWObject-2.1.a"; path = "libPods-HWObject-2.1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DFC3123BBD95558A494A18175E2C16B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836FC3C8D33702DB90C5DCB97DE622E0 /* Foundation.framework in Frameworks */,
+				9D2053C697EEDBD16FE1D7F6C4E223A0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB90C238E71C5B4833ECD65CF7615B85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB6E907E6A3DF6103F9E66170B4272A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CA243E6E5D93B5E9AEB957C05E92E49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CA3143D4B501B004E850A6428D5A4DD /* BOZPongRefreshControl */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2962462CC2AD511C9F9BA7270E9C1F25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				601AA7A25A8B5885C168EEFD3E7A7554 /* libBOZPongRefreshControl.a */,
+				FF92543EE2B626BC5287C53B81AC8760 /* libPods-HWObject-2.1.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CA3143D4B501B004E850A6428D5A4DD /* BOZPongRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				ACDD36498142EBF8E17F096D63607974 /* BOZPongRefreshControl.h */,
+				237EFE4243D41A91E7838B0D19EFC08A /* BOZPongRefreshControl.m */,
+				F15D3BF7D3423AFE0661F81F062FD215 /* Support Files */,
+			);
+			name = BOZPongRefreshControl;
+			path = BOZPongRefreshControl;
+			sourceTree = "<group>";
+		};
+		2D97A1C397FC808942770E1D119FD439 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				44BCE9BDE762DDE821047E547A73B273 /* Pods-HWObject-2.1 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44BCE9BDE762DDE821047E547A73B273 /* Pods-HWObject-2.1 */ = {
+			isa = PBXGroup;
+			children = (
+				2B111140447593ECFFF31896BC114308 /* Pods-HWObject-2.1-acknowledgements.markdown */,
+				2CE731F0914CF2D1465E3313269B8BF1 /* Pods-HWObject-2.1-acknowledgements.plist */,
+				8A6576DE0B5B4495E0C8806FECBD2CB9 /* Pods-HWObject-2.1-dummy.m */,
+				77342D7C399EE2E98F444562C9D6358D /* Pods-HWObject-2.1-frameworks.sh */,
+				9F95F6D0B148AAEDE1D18BF5E52D41AA /* Pods-HWObject-2.1-resources.sh */,
+				EF81CF1185E0DD1C58354742ABFE80DE /* Pods-HWObject-2.1.debug.xcconfig */,
+				40DE75E31E44A2073E28AF2F9EE1008B /* Pods-HWObject-2.1.release.xcconfig */,
+			);
+			name = "Pods-HWObject-2.1";
+			path = "Target Support Files/Pods-HWObject-2.1";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				0CA243E6E5D93B5E9AEB957C05E92E49 /* Pods */,
+				2962462CC2AD511C9F9BA7270E9C1F25 /* Products */,
+				2D97A1C397FC808942770E1D119FD439 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F15D3BF7D3423AFE0661F81F062FD215 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9142DCAAEAE9AB46558D3CB8E4404F2E /* BOZPongRefreshControl.xcconfig */,
+				5EE20C2550E58F1B8FAD1D5F2D5C3AA5 /* BOZPongRefreshControl-dummy.m */,
+				148F20548B597A0E407C92E2BE62E615 /* BOZPongRefreshControl-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BOZPongRefreshControl";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D0B5AE51123EA737F799147E6CBF0F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7127E2F6F3986413C8FCA47D2A00AE81 /* BOZPongRefreshControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A0CC78F926053F65C10B7183938C0CAC /* BOZPongRefreshControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35A380A75F61058E6EB7172AC1B626E8 /* Build configuration list for PBXNativeTarget "BOZPongRefreshControl" */;
+			buildPhases = (
+				F404F1EAFF1B0922187F740AC97FC398 /* Sources */,
+				2DFC3123BBD95558A494A18175E2C16B /* Frameworks */,
+				8D0B5AE51123EA737F799147E6CBF0F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BOZPongRefreshControl;
+			productName = BOZPongRefreshControl;
+			productReference = 601AA7A25A8B5885C168EEFD3E7A7554 /* libBOZPongRefreshControl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C2E8E746BE486D2359E3C0C4E29AC537 /* Pods-HWObject-2.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A52CFA7BC43F6BB3FCE2D836170AFC40 /* Build configuration list for PBXNativeTarget "Pods-HWObject-2.1" */;
+			buildPhases = (
+				6B68900FEE7FF6AB612974ADC65C2CE7 /* Sources */,
+				DB90C238E71C5B4833ECD65CF7615B85 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				179CD6714CC936EEDEAF326F466A2C76 /* PBXTargetDependency */,
+			);
+			name = "Pods-HWObject-2.1";
+			productName = "Pods-HWObject-2.1";
+			productReference = FF92543EE2B626BC5287C53B81AC8760 /* libPods-HWObject-2.1.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2962462CC2AD511C9F9BA7270E9C1F25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0CC78F926053F65C10B7183938C0CAC /* BOZPongRefreshControl */,
+				C2E8E746BE486D2359E3C0C4E29AC537 /* Pods-HWObject-2.1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B68900FEE7FF6AB612974ADC65C2CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD572595223C63673622DB96E38D030 /* Pods-HWObject-2.1-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F404F1EAFF1B0922187F740AC97FC398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D4A80045CE6E3CE8BA8958D68024AE /* BOZPongRefreshControl-dummy.m in Sources */,
+				417FCC44AD0FD03A166F89B09BBDD6A3 /* BOZPongRefreshControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		179CD6714CC936EEDEAF326F466A2C76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BOZPongRefreshControl;
+			target = A0CC78F926053F65C10B7183938C0CAC /* BOZPongRefreshControl */;
+			targetProxy = 1D83FE43B2398DB7E9F85CFC0AE3CEB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		897093BDA99D13C2130FE40A1450741F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9142DCAAEAE9AB46558D3CB8E4404F2E /* BOZPongRefreshControl.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BOZPongRefreshControl/BOZPongRefreshControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F27670C3221D5FF121825F47A0465CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF81CF1185E0DD1C58354742ABFE80DE /* Pods-HWObject-2.1.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FD6D07CD93184ED3463669A0124B29A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40DE75E31E44A2073E28AF2F9EE1008B /* Pods-HWObject-2.1.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FF5E1D3CF4018ECEE26A373E1EE2262C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9142DCAAEAE9AB46558D3CB8E4404F2E /* BOZPongRefreshControl.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BOZPongRefreshControl/BOZPongRefreshControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35A380A75F61058E6EB7172AC1B626E8 /* Build configuration list for PBXNativeTarget "BOZPongRefreshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5E1D3CF4018ECEE26A373E1EE2262C /* Debug */,
+				897093BDA99D13C2130FE40A1450741F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A52CFA7BC43F6BB3FCE2D836170AFC40 /* Build configuration list for PBXNativeTarget "Pods-HWObject-2.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27670C3221D5FF121825F47A0465CC0 /* Debug */,
+				FD6D07CD93184ED3463669A0124B29A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

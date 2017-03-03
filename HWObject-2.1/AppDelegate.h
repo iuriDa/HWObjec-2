@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <BOZPongRefreshControl/BOZPongRefreshControl.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

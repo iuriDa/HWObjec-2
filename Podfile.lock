@@ -1,0 +1,12 @@
+PODS:
+  - BOZPongRefreshControl (1.0.1)
+
+DEPENDENCIES:
+  - BOZPongRefreshControl
+
+SPEC CHECKSUMS:
+  BOZPongRefreshControl: c956ee1f1bed94d3554ad081c4ff1450cfc6d349
+
+PODFILE CHECKSUM: 38648d46cde59e08469e544ff84d04be61ae9293
+
+COCOAPODS: 1.2.0
