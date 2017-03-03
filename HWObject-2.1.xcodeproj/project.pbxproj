@@ -13,6 +13,7 @@
 		29B9F8901E698B9E00DA8785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B9F88E1E698B9E00DA8785 /* Main.storyboard */; };
 		29B9F8921E698B9E00DA8785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29B9F8911E698B9E00DA8785 /* Assets.xcassets */; };
 		29B9F8951E698B9E00DA8785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B9F8931E698B9E00DA8785 /* LaunchScreen.storyboard */; };
+		29B9F89E1E698BF100DA8785 /* persons-0090.png in Resources */ = {isa = PBXBuildFile; fileRef = 29B9F89D1E698BF100DA8785 /* persons-0090.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		29B9F8911E698B9E00DA8785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29B9F8941E698B9E00DA8785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29B9F8961E698B9E00DA8785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29B9F89D1E698BF100DA8785 /* persons-0090.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "persons-0090.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		29B9F8841E698B9E00DA8785 /* HWObject-2.1 */ = {
 			isa = PBXGroup;
 			children = (
+				29B9F89C1E698BCB00DA8785 /* Image */,
 				29B9F8881E698B9E00DA8785 /* AppDelegate.h */,
 				29B9F8891E698B9E00DA8785 /* AppDelegate.m */,
 				29B9F88B1E698B9E00DA8785 /* ViewController.h */,
@@ -77,6 +80,14 @@
 				29B9F8861E698B9E00DA8785 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29B9F89C1E698BCB00DA8785 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				29B9F89D1E698BF100DA8785 /* persons-0090.png */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 				29B9F8951E698B9E00DA8785 /* LaunchScreen.storyboard in Resources */,
 				29B9F8921E698B9E00DA8785 /* Assets.xcassets in Resources */,
 				29B9F8901E698B9E00DA8785 /* Main.storyboard in Resources */,
+				29B9F89E1E698BF100DA8785 /* persons-0090.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "HWObject-2.1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "iuriDa.HWObject-2-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -282,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "HWObject-2.1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "iuriDa.HWObject-2-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
